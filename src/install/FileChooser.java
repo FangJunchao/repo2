@@ -24,7 +24,7 @@ public class FileChooser extends JFrame implements ActionListener {
             System.out.println("文件夹:" + file.getAbsolutePath());
         } else if (file.isFile()) {
             InstallJarToMaven.dFile = file.getAbsolutePath();
-            //dev
+            //devmaster
         }
 
     }
